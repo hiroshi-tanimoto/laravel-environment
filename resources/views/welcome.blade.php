@@ -44,6 +44,7 @@
             </div>
 
             <button id="sampleBtn">clickEv</button>
+            <p>aaaaaaaaaa</p>
         </div>
         <script src="{{ asset('js/sample-con.js') }}"></script>
         <script src="{{ asset('js/sample-ts.js') }}"></script>
