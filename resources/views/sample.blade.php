@@ -11,7 +11,7 @@
         <link rel="stylesheet" href="{{ asset('css/app.css') }}">
         <link rel="stylesheet" href="{{ asset('css/welcom.css') }}">
     </head>
-    <body id="welcom">
+    <body>
         <div class="flex-center position-ref full-height">
             @if (Route::has('login'))
                 <div class="top-right links">
@@ -29,7 +29,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    Laravel-sample
                 </div>
 
                 <div class="links">
@@ -41,13 +41,9 @@
                     <a href="https://forge.laravel.com">Forge</a>
                     <a href="https://vapor.laravel.com">Vapor</a>
                     <a href="https://github.com/laravel/laravel">GitHub</a>
+                    <p>ああああああああああああああああああああああ</p>
                 </div>
             </div>
-
-            <button id="sampleBtn">clickEv</button>
-            <p>aaaaaaaaaa</p>
         </div>
-        <script src="{{ asset('js/sample-con.js') }}"></script>
-        <script src="{{ asset('js/sample-ts.js') }}"></script>
     </body>
 </html>
